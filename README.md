@@ -10,11 +10,9 @@ JUnit gives us the concept of a test suite, which can be composed of multiple te
 
 <h2>Steps For This Project</h2>
  1. You will notice there is a compile error in ```UI.java```. First fix that error.
- 1. Run ```AllTests``` as a unit test and ensure that 26 tests are run, and 1 test fails. The failing test is ```testSquares```.
- 1. We have implemented a constructor in the ```UI``` class. Part of this constructor still needs to be implemented. Follow the guidelines specified by TODO's in the constructor to complete it's implementation.
- 1. Run ```UITests``` and verify that out of 7 tests, 6 tests pass and only 1 test - ```testSquares``` fails.
- 1. Implement the ```layoutSquares()``` method as described in TODO's in the code.
- 1. Run ```UITests``` and verify that all 7 tests pass.
+ 1. Run ```AllTests``` as a unit test and ensure that 24 tests are run, and 1 test fails. The failing test is ```testSquares```.
+ 1. Understand why there is a failing test in UITest.java and fix the code in UI.java
+ 1. Run ```UITests``` and verify that all 5 tests pass.
  1. Run ```AllTests``` and ensure that all the 26 tests pass. 
 
 <h2>Questions to ponder</h2>
