@@ -11,7 +11,8 @@ JUnit gives us the concept of a test suite, which can be composed of multiple te
 <h2>Steps For This Project</h2>
  1. You will notice there is a compile error in ```UI.java```. First fix that error.
  1. Run ```AllTests``` as a unit test and ensure that 24 tests are run, and 1 test fails. The failing test is ```testSquares```.
- 1. Understand why there is a failing test in UITest.java and fix the code in UI.java
+ 1. Understand why there is a failing test in UITest.java and fix the code in UI.java. You can use JButton objects to represent squares on the UI.
+ 1. Give all the JButton components a name. The name is not displayed, but will be useful for referring to components in the future. Use the format "$row, $col" as the name. 
  1. Run ```UITests``` and verify that all 5 tests pass.
  1. Run ```AllTests``` and ensure that all the 26 tests pass. 
 
